@@ -16,5 +16,19 @@ namespace BurnIn
         {
             InitializeComponent();
         }
+
+
+        //control action method
+        private void tsmiEXIT_Click(object sender, EventArgs e)//close program
+        {
+            Close();
+        }
+        private void tsmiAbout_Click(object sender, EventArgs e)//show logo in about
+        {
+            AboutBox aboutBox = new AboutBox();
+            aboutBox.ShowDialog();
+        }
+
+        //user define method
     }
 }
