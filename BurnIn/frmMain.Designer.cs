@@ -68,30 +68,30 @@
             this.tsmiSetupPara = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSetupTime = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSetupAlarm = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiInstrumentConfig = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiMonitor = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiStart = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiContinue = new System.Windows.Forms.ToolStripMenuItem();
             this.tmsiPause = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiContinue = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmsiStop = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tmsiLocationDetect = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmsiManuallyCheck = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSystem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSetPassword = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSystemOptionSet = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiLockScreen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiWindow = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiWindowSwitch = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiWizard = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.tsmiWindow = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmiInstrumentConfig = new System.Windows.Forms.ToolStripMenuItem();
-            this.tmsiStop = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tmsiLocationDetect = new System.Windows.Forms.ToolStripMenuItem();
-            this.tmsiManuallyCheck = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiWizard = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiWindowSwitch = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiSetPassword = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiSystemOptionSet = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiLockScreen = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -103,6 +103,7 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tsmiDebug = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -381,6 +382,17 @@
             this.tsmiSetupAlarm.Size = new System.Drawing.Size(232, 26);
             this.tsmiSetupAlarm.Text = "Setup Alarm";
             // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            this.toolStripSeparator.Size = new System.Drawing.Size(229, 6);
+            // 
+            // tsmiInstrumentConfig
+            // 
+            this.tsmiInstrumentConfig.Name = "tsmiInstrumentConfig";
+            this.tsmiInstrumentConfig.Size = new System.Drawing.Size(232, 26);
+            this.tsmiInstrumentConfig.Text = "Instrument Config";
+            // 
             // tsmiMonitor
             // 
             this.tsmiMonitor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -402,17 +414,40 @@
             this.tsmiStart.Size = new System.Drawing.Size(200, 26);
             this.tsmiStart.Text = "Start Burn In";
             // 
+            // tmsiPause
+            // 
+            this.tmsiPause.Name = "tmsiPause";
+            this.tmsiPause.Size = new System.Drawing.Size(200, 26);
+            this.tmsiPause.Text = "Pause";
+            // 
             // tsmiContinue
             // 
             this.tsmiContinue.Name = "tsmiContinue";
             this.tsmiContinue.Size = new System.Drawing.Size(200, 26);
             this.tsmiContinue.Text = "Continue";
             // 
-            // tmsiPause
+            // tmsiStop
             // 
-            this.tmsiPause.Name = "tmsiPause";
-            this.tmsiPause.Size = new System.Drawing.Size(200, 26);
-            this.tmsiPause.Text = "Pause";
+            this.tmsiStop.Name = "tmsiStop";
+            this.tmsiStop.Size = new System.Drawing.Size(200, 26);
+            this.tmsiStop.Text = "Stop";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(197, 6);
+            // 
+            // tmsiLocationDetect
+            // 
+            this.tmsiLocationDetect.Name = "tmsiLocationDetect";
+            this.tmsiLocationDetect.Size = new System.Drawing.Size(200, 26);
+            this.tmsiLocationDetect.Text = "Location Detect";
+            // 
+            // tmsiManuallyCheck
+            // 
+            this.tmsiManuallyCheck.Name = "tmsiManuallyCheck";
+            this.tmsiManuallyCheck.Size = new System.Drawing.Size(200, 26);
+            this.tmsiManuallyCheck.Text = "Manually Check";
             // 
             // tsmiSystem
             // 
@@ -424,6 +459,63 @@
             this.tsmiSystem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
             this.tsmiSystem.Size = new System.Drawing.Size(74, 24);
             this.tsmiSystem.Text = "System";
+            // 
+            // tsmiSetPassword
+            // 
+            this.tsmiSetPassword.Name = "tsmiSetPassword";
+            this.tsmiSetPassword.Size = new System.Drawing.Size(220, 26);
+            this.tsmiSetPassword.Text = "Set Password";
+            // 
+            // tsmiSystemOptionSet
+            // 
+            this.tsmiSystemOptionSet.Name = "tsmiSystemOptionSet";
+            this.tsmiSystemOptionSet.Size = new System.Drawing.Size(220, 26);
+            this.tsmiSystemOptionSet.Text = "System Option Set";
+            // 
+            // tsmiLockScreen
+            // 
+            this.tsmiLockScreen.Name = "tsmiLockScreen";
+            this.tsmiLockScreen.Size = new System.Drawing.Size(220, 26);
+            this.tsmiLockScreen.Text = "LockScreen";
+            // 
+            // tsmiWindow
+            // 
+            this.tsmiWindow.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiWindowSwitch});
+            this.tsmiWindow.Name = "tsmiWindow";
+            this.tsmiWindow.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.W)));
+            this.tsmiWindow.Size = new System.Drawing.Size(106, 24);
+            this.tsmiWindow.Text = "Window(&W)";
+            // 
+            // tsmiWindowSwitch
+            // 
+            this.tsmiWindowSwitch.Name = "tsmiWindowSwitch";
+            this.tsmiWindowSwitch.Size = new System.Drawing.Size(196, 26);
+            this.tsmiWindowSwitch.Text = "Window Switch";
+            // 
+            // tsmiHelp
+            // 
+            this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiDebug,
+            this.tsmiWizard,
+            this.tsmiAbout});
+            this.tsmiHelp.Name = "tsmiHelp";
+            this.tsmiHelp.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.H)));
+            this.tsmiHelp.Size = new System.Drawing.Size(78, 24);
+            this.tsmiHelp.Text = "Help(&H)";
+            // 
+            // tsmiWizard
+            // 
+            this.tsmiWizard.Name = "tsmiWizard";
+            this.tsmiWizard.Size = new System.Drawing.Size(181, 26);
+            this.tsmiWizard.Text = "Wizard";
+            // 
+            // tsmiAbout
+            // 
+            this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.Size = new System.Drawing.Size(181, 26);
+            this.tsmiAbout.Text = "About";
+            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
             // 
             // toolStrip1
             // 
@@ -473,96 +565,6 @@
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(63, 24);
             this.toolStripButton4.Text = "删除";
-            // 
-            // tsmiWindow
-            // 
-            this.tsmiWindow.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiWindowSwitch});
-            this.tsmiWindow.Name = "tsmiWindow";
-            this.tsmiWindow.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.W)));
-            this.tsmiWindow.Size = new System.Drawing.Size(106, 24);
-            this.tsmiWindow.Text = "Window(&W)";
-            // 
-            // tsmiHelp
-            // 
-            this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiWizard,
-            this.tsmiAbout});
-            this.tsmiHelp.Name = "tsmiHelp";
-            this.tsmiHelp.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.H)));
-            this.tsmiHelp.Size = new System.Drawing.Size(78, 24);
-            this.tsmiHelp.Text = "Help(&H)";
-            // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(229, 6);
-            // 
-            // tsmiInstrumentConfig
-            // 
-            this.tsmiInstrumentConfig.Name = "tsmiInstrumentConfig";
-            this.tsmiInstrumentConfig.Size = new System.Drawing.Size(232, 26);
-            this.tsmiInstrumentConfig.Text = "Instrument Config";
-            // 
-            // tmsiStop
-            // 
-            this.tmsiStop.Name = "tmsiStop";
-            this.tmsiStop.Size = new System.Drawing.Size(200, 26);
-            this.tmsiStop.Text = "Stop";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(197, 6);
-            // 
-            // tmsiLocationDetect
-            // 
-            this.tmsiLocationDetect.Name = "tmsiLocationDetect";
-            this.tmsiLocationDetect.Size = new System.Drawing.Size(200, 26);
-            this.tmsiLocationDetect.Text = "Location Detect";
-            // 
-            // tmsiManuallyCheck
-            // 
-            this.tmsiManuallyCheck.Name = "tmsiManuallyCheck";
-            this.tmsiManuallyCheck.Size = new System.Drawing.Size(200, 26);
-            this.tmsiManuallyCheck.Text = "Manually Check";
-            // 
-            // tsmiAbout
-            // 
-            this.tsmiAbout.Name = "tsmiAbout";
-            this.tsmiAbout.Size = new System.Drawing.Size(181, 26);
-            this.tsmiAbout.Text = "About";
-            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
-            // 
-            // tsmiWizard
-            // 
-            this.tsmiWizard.Name = "tsmiWizard";
-            this.tsmiWizard.Size = new System.Drawing.Size(134, 26);
-            this.tsmiWizard.Text = "Wizard";
-            // 
-            // tsmiWindowSwitch
-            // 
-            this.tsmiWindowSwitch.Name = "tsmiWindowSwitch";
-            this.tsmiWindowSwitch.Size = new System.Drawing.Size(196, 26);
-            this.tsmiWindowSwitch.Text = "Window Switch";
-            // 
-            // tsmiSetPassword
-            // 
-            this.tsmiSetPassword.Name = "tsmiSetPassword";
-            this.tsmiSetPassword.Size = new System.Drawing.Size(220, 26);
-            this.tsmiSetPassword.Text = "Set Password";
-            // 
-            // tsmiSystemOptionSet
-            // 
-            this.tsmiSystemOptionSet.Name = "tsmiSystemOptionSet";
-            this.tsmiSystemOptionSet.Size = new System.Drawing.Size(220, 26);
-            this.tsmiSystemOptionSet.Text = "System Option Set";
-            // 
-            // tsmiLockScreen
-            // 
-            this.tsmiLockScreen.Name = "tsmiLockScreen";
-            this.tsmiLockScreen.Size = new System.Drawing.Size(220, 26);
-            this.tsmiLockScreen.Text = "LockScreen";
             // 
             // dataGridView1
             // 
@@ -643,6 +645,13 @@
             this.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column10.HeaderText = "Alarm Status";
             this.Column10.Name = "Column10";
+            // 
+            // tsmiDebug
+            // 
+            this.tsmiDebug.Name = "tsmiDebug";
+            this.tsmiDebug.Size = new System.Drawing.Size(181, 26);
+            this.tsmiDebug.Text = "Debug";
+            this.tsmiDebug.Click += new System.EventHandler(this.tsmiDebug_Click);
             // 
             // frmMain
             // 
@@ -745,6 +754,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.ToolStripMenuItem tsmiDebug;
     }
 }
 

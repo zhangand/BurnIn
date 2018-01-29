@@ -29,6 +29,12 @@ namespace BurnIn
             aboutBox.ShowDialog();
         }
 
+        private void tsmiDebug_Click(object sender, EventArgs e)
+        {
+            frm_server frm_server = new frm_server();
+            frm_server.Show();
+        }
+
         //user define method
     }
 }
